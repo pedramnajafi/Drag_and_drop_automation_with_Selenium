@@ -18,5 +18,4 @@ I have used "http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.h
     time.sleep(5)
     actions = ActionChains(driver)
     actions.drag_and_drop(source, dest).perform()
-
     time.sleep(100)
