@@ -16,7 +16,6 @@ I have used "http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.h
     source = driver.find_element(By.XPATH,'//*[@id="box3"]')
     dest = driver.find_element(By.XPATH,'//*[@id="box103"]')
     time.sleep(5)
-
     actions = ActionChains(driver)
     actions.drag_and_drop(source, dest).perform()
 
