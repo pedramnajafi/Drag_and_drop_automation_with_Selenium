@@ -9,7 +9,6 @@ I have used "http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.h
     from selenium.webdriver.common.action_chains import ActionChains
     from selenium.webdriver.common.by import By
     import time
-
     driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get('http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html')
