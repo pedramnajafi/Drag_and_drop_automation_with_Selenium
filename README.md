@@ -5,7 +5,6 @@ With this code, you can drag one item from the left list and drop it into the ri
 
 I have used "http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html" page for this code. Don't forget to change the "executable_path" which shows the path of "chromedriver.exe" in your system.
 
-
     from selenium import webdriver
     from selenium.webdriver.common.action_chains import ActionChains
     from selenium.webdriver.common.by import By
